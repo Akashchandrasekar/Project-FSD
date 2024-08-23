@@ -1,0 +1,297 @@
+/* Navbar Styles Start */
+
+body {
+  background-color: #f1f0ef;
+  margin: 0;
+  padding: 0;
+}
+.Main_navbar {
+  display: flex;
+  font-family: "Poppins";
+  justify-content: space-evenly;
+  padding: 0cm 1cm;
+
+  align-items: center;
+}
+.nav_links > ul {
+  list-style: none;
+  display: flex;
+  gap: 1cm;
+}
+.nav_ends {
+  display: flex;
+  align-items: center;
+  gap: 1cm;
+}
+.nav_ends > h6 {
+  color: #fa7436;
+  font-size: 13px;
+}
+.nav_ends > button {
+  background-color: #fa7436;
+  color: white;
+  border-style: none;
+  height: 1cm;
+  width: 3cm;
+  border-radius: 4px;
+}
+/* Navbar Styles End */
+
+/* Opener Styles Start */
+.Opener {
+  display: flex;
+  justify-content: center;
+  gap: 6cm;
+}
+.Opener > section > h1 {
+  font-size: 1cm;
+  font-family: "Volkhov";
+}
+.Opener > section > h5 {
+  /* font-size: 1cm; */
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+  color: grey;
+}
+.Opener_start {
+  position: relative;
+  top: 1cm;
+}
+.Opener_start > button {
+  background-color: transparent;
+  border: 1px solid #fa7436;
+  border-radius: 4px;
+  color: #fa7436;
+  font-size: 12px;
+  font-family: "poppins";
+  width: 3.2cm;
+  height: 34px;
+  margin-top: 0.4cm;
+}
+/* Opener Styles End */
+
+/*  EXPLORE_CONTAINER Start */
+.EXPLORE_CONTAINER {
+  font-family: "poppins";
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border-radius: 4px;
+  background-color: white;
+  position: relative;
+  top: 50%;
+  left: 30%;
+  justify-content: space-around;
+  line-height: 5px;
+  height: 2.4cm;
+}
+
+.EXPLORE_CONTAINER > section > button {
+  background-color: #fa7436;
+  color: white;
+  border-style: none;
+  height: 1cm;
+  width: 3.3cm;
+  font-weight: 300;
+  font-family: "poppins";
+  font-size: 12px;
+  border-radius: 3px;
+}
+.explore_container_section {
+  font-size: 13px;
+}
+.explore_container_section > h4 {
+  font-weight: 600;
+}
+
+.explore_container_section > p {
+  font-weight: 300;
+  font-size: 11px;
+}
+/* EXPLORE_CONTAINER End */
+
+/* SERVICES_CONTAINER End */
+
+.SERVICES_CONTAINER {
+  font-family: "Volkhov";
+  text-align: center;
+
+  line-height: 14px;
+  background-color: #ebedf6;
+}
+.SERVICES_CONTAINER_TOP > h1 {
+  font-size: 33px;
+}
+.SERVICES_CONTAINER_TOP > p {
+  font-size: 12px;
+  color: grey;
+  font-family: "poppins";
+  display: grid;
+}
+.signup_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "poppins";
+  font-size: 10px;
+  background-color: white;
+  width: 5.5cm;
+  height: 4cm;
+  text-align: start;
+  padding-left: 1cm;
+}
+.signup_card > span > h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.signup_card > span > p {
+  color: rgb(129, 129, 132);
+}
+.SERVICES_CONTAINER_BOTTOM{
+  display: flex;
+  justify-content: center;
+  gap:1cm;
+  padding-top: 1cm;
+
+}
+
+.SERVICES_CONTAINER{
+  padding: 3cm 0cm;
+}
+/* SERVICES_CONTAINER End */
+
+/* <!--CAROUSEL START HERE  --> */
+
+.carousel_container_top {
+  font-family: "Volkhov";
+  display: grid;
+  justify-content: center;
+}
+.carousel_container_top > h1 {
+  font-size: 30px;
+}
+.carousel_container_top > p {
+  font-family: "poppins";
+  font-size: 11px;
+  margin-top: -0.3cm;
+  text-align: center;
+}
+.carousel_container_bottom {
+  font-family: "poppins";
+  display: flex;
+  justify-content: center;
+  gap: 1cm;
+}
+.carousel_container_bottom_one {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 14px;
+}
+
+.carousel_container_bottom_one > h4 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.carousel_container_bottom_two {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 0px 14px;
+  font-weight: 100 !important;
+}
+
+.carousel_container_bottom_two > h6 {
+  font-size: 10px;
+  font-weight: 300 !important;
+}
+.carousel_container_bottom_two > h6 {
+  font-size: 10px;
+  font-weight: 300 !important;
+}
+.carousel_cards {
+  border: 1px solid rgb(211, 211, 211);
+  width: min-content;
+  height: 7.5cm;
+  line-height: 1px;
+  border-radius: 7px;
+}
+/* <!--CAROUSEL end HERE  --> */
+
+/* <!--vacation START HERE  --> */
+
+.vacationplan_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2cm;
+}
+.vacationplan_top > h1 {
+  font-family: "Volkhov";
+  font-size: 30px;
+}
+
+.vacationplan_top > p {
+  font-family: "poppins";
+  font-size: 12px;
+  text-align: center;
+  color: grey;
+  margin-bottom: 1cm;
+}
+
+.vacationplan_bottom {
+  display: flex;
+  justify-content: center;
+  gap: 0.5cm;
+}
+.plan_card {
+  border: 1px solid rgb(228, 224, 224);
+  font-family: poppins;
+  border-radius: 13px;
+  width: 6cm;
+  height: 7.6cm;
+}
+.plan_content_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  font-weight: 300 !important;
+}
+.plan_content_1 > h5 {
+  font-weight: 500 !important;
+}
+.plan_content_2 > h5 {
+  font-size: 9px;
+  font-weight: 400 !important;
+}
+.plan_content_2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  align-items: center;
+}
+
+/* .subscribe_panel */
+.subscribe_panel {
+  background-color: #fa7436;
+  height: 6cm;
+  width: 26cm;
+  justify-content: center;
+  display: grid;
+  font-family: "Volkhov";
+  color: white;
+  border-radius: 15px;
+  margin-top: 2cm;
+}
+
+/* subscribe_panel end */
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0cm 3cm;
+}
